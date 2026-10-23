@@ -1,16 +1,24 @@
-# React + Vite
+# 🎬 Кинотека (React + TypeScript)
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Приложение для поиска фильмов и сериалов, созданное на базе API Кинопоиска.
 
-Currently, two official plugins are available:
+🔗 **Живая ссылка на сайт:** https://shalim-andrej.github.io/kinoteka-react/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Что умеет приложение:
+- Искать фильмы (с задержкой ввода, чтобы не грузить сервер).
+- Фильтровать по жанрам, годам и рейтингу.
+- Показывать бесконечный скролл (карточки подгружаются сами).
+- Вход через Google (Firebase Auth).
+- Сохранять избранное в облако (Firestore), чтобы оно было доступно с телефона и компьютера.
+- Переключать темную и светлую тему.
+- Показывать трейлеры фильмов.
+- Имеет красивые анимации и скелетоны загрузки.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Технологии:
+- React
+- TypeScript
+- Vite
+- React Router
+- Firebase (Auth + Firestore)
+- Framer Motion (анимации)
+- Axios / Fetch API
